@@ -1,0 +1,1 @@
+:root{--bg:#000;--hl:red}html{overflow:hidden}body{background:var(--bg);color:var(--hl)}

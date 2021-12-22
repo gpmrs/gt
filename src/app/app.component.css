@@ -2,9 +2,27 @@
 
 section {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  position: absolute;
+  z-index: 10000;
+  width: 100%;
+  top: 300px;
+  background: rgba(0, 0, 0, 0.4);
+
 }
 
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Consolas', sans-serif;
 }

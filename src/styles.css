@@ -1,8 +1,11 @@
 :root {
-  --bg: #2b2d2f;
-  --hl: #C9FBFF;
+  --bg: #000;
+  --hl: red;
 }
 
+html {
+  overflow: hidden;
+}
 
 body {
   background: var(--bg);
